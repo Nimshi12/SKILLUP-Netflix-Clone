@@ -12,6 +12,7 @@ function App() {
     <div>
       <Hero />
       <ContentSection />
+      <div style={{height: '300px'}}></div>
     </div>
   )
 }
