@@ -100,6 +100,8 @@ body {
   background: rgba(22, 22, 22, 0.68);
   padding-left: 20px;
   border-radius: 5px;
+  color: white;
+
 }
 
 .get-started-btn {
@@ -107,7 +109,7 @@ body {
   color: white;
   border: none;
   margin-left: 10px;
-  width: 54%;
+  width: 275px;
   height: 100%;
   padding: 14px 20px;
   border-radius: 5px;
@@ -145,6 +147,10 @@ body {
   color: rgb(181, 181, 181);
 }
 
+.faq-container {
+  margin-bottom: -40px;
+}
+
 .faq-item {
   background-color: #2d2d2d;
   margin-bottom: 20px;
@@ -159,4 +165,45 @@ body {
 
 .faq-item-description {
   font-size: 20px;
+}
+
+.register-caption {
+  margin-bottom: 30px;
+}
+
+.register {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:rgb(186, 186, 186);
+}
+
+.footer-item-container {
+  display: flex;
+  justify-content: start;
+  gap: 70px;
+  align-items: center;
+  margin-left: -40px;
+
+
+}
+
+.footer-items {
+  margin-right: 70px;
+}
+
+.footer-list {
+  list-style: none;
+  line-height: 35px;
 }

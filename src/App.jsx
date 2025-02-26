@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from './components/Hero'
 import ContentSection from './components/ContentSection'
+import Register from './components/Register'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +14,9 @@ function App() {
     <div>
       <Hero />
       <ContentSection />
-      <div style={{height: '300px'}}></div>
+      <Register />
+      <Footer />
+      <div style={{height: '20px'}}></div>
     </div>
   )
 }
